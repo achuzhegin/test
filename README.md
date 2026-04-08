@@ -70,3 +70,5 @@ stat /home/user/.docker/config.json: permission denied
 Задание 3
 Создайте свой Docker образ с Apache и подмените стандартную страницу index.html на страницу, содержащую ваши ФИО.
 Запустите ваш образ, откройте страницу http://localhost и убедитесь, что страница изменилась.
+
+docker run -dit --name my-running-app -p 8080:80 my-apache2
