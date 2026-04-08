@@ -60,3 +60,13 @@ stat /home/user/.docker/config.json: permission denied
 
  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
  sudo chmod g+rwx "$HOME/.docker" -R
+
+ ////////////
+
+
+ Задание 2
+Найдите в Docker Hub образ Apache(httpd) и запустите его на 80 порту вашей ВМ.
+Откройте страницу http://localhost и убедитесь, что видите приветвенную страницу Apache.
+Задание 3
+Создайте свой Docker образ с Apache и подмените стандартную страницу index.html на страницу, содержащую ваши ФИО.
+Запустите ваш образ, откройте страницу http://localhost и убедитесь, что страница изменилась.
